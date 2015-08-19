@@ -1,0 +1,128 @@
+/* Common Css*/
+
+.navbar-default, .navbar-default .navbar-brand {
+  background-color: #95a5a6;
+  border-color: #e7e7e7;
+  color: #fff;
+}
+
+.btn-1{
+	background-color: #313447;
+}
+.btn-1:hover{
+	background-color: #BB0000;
+}
+
+body{
+	background-color: #bdc3c7;
+}
+/* ----------------- */
+
+
+/* Bootstrap OverWrite */
+
+.navbar-default .navbar-nav > li > a {
+	color: #313447;
+	text-transform: uppercase;
+}
+
+/* --------------------------------- */
+
+header > .container > .row > .col-md-4{
+	height: 80px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.logo .logo-img{
+	width: 200px; height: 80px;
+}
+
+header .conatact-no{
+	height: 85px;
+	font-size: 16px;
+}
+
+header .conatact-no p{
+	margin-top: 30px;
+}
+
+.login-register > ul > li{
+	padding: 15px 12px;
+}
+
+.login-register > ul > li >a{
+	font-size: 16px; 
+	color: #fff !important; 
+	padding-top: 10px; 
+	padding-bottom: 10px;
+}
+
+
+.login-register > ul > li >a:hover{
+	background: #34495e !important;
+	color: #fff !important; 
+}
+
+
+/* Navigation Bar Style */
+.icon.icon-home{
+	left: 0;
+}
+
+.navbar.brand a{
+	color: #313447;
+}
+
+/* Main Content Area */
+
+.calculator-wrapper{
+	width: 100%;
+}
+
+.calculator-name{
+	color: #434343;
+	font-size: 20px;
+	margin: 20px 0;
+}
+
+.calculator-content{
+	background: #585858;
+	background: -webkit-linear-gradient(top, #454545, #585858);
+	background: rgba(0, 0, 0, 0) -moz-linear-gradient(center top , #454545, #585858) repeat scroll 0 0;
+    color: #fff;
+    padding: 15px 30px 35px;
+    min-height: 10px;
+}
+
+.calculator-wrapper #rebatespermonth { display: block; text-align: center; padding: 20px 0 5px; font-size: 16px; color: #000000; }
+.calculator-wrapper #rebates_count { text-align: center; color: #f58220; font-size: 48px; line-height: 48px; font-family: HelveticaCE, Arial; }
+.calculator-wrapper #rebates_count.small { font-size: 35px; }
+
+/* ------------------------------------------------ */
+
+/* Medium devices (desktops, 992px and up) */
+@media (max-width: 992px) {
+
+	.login-register > ul li{
+  	padding-left: 7px; 
+  	padding-right: 7px;
+  }
+
+  .login-register > ul > li{
+  	float: left;
+  }
+}
+
+
+/* Small devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+  .login-register > ul li{
+  	padding-left: 2px; 
+  	padding-right: 2px;
+  }
+
+  .login-register > ul > li{
+  	float: left;
+  }
+}
