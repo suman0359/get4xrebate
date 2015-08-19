@@ -99,6 +99,75 @@ header .conatact-no p{
 .calculator-wrapper #rebates_count { text-align: center; color: #f58220; font-size: 48px; line-height: 48px; font-family: HelveticaCE, Arial; }
 .calculator-wrapper #rebates_count.small { font-size: 35px; }
 
+.brokers-list{
+	margin: 20px 0;
+}
+
+.brokers-list h2{
+	border-bottom: 1px solid #fff;
+}
+
+ul.brokers-ul{
+	list-style-type: none;
+	padding: 0;
+}
+
+ul.brokers-ul li{
+	float: left;
+	margin: 5px 6px;
+	width: 110px;
+}
+
+
+ul.brokers-ul li:first-child{
+	margin-left: 0px;
+}
+
+ul.brokers-ul li:nth-child(7n){
+	margin-right: 0px;
+}
+
+ul.brokers-ul li:nth-child(7n+8){
+	margin-left: 0;
+}
+
+ul.brokers-ul li a{
+	
+}
+
+ul.brokers-ul li a img{
+	width: 100px;
+	height: 80px;
+}
+
+ul.brokers-ul li a div.field-logo::before { 
+	content: ''; 
+	position: absolute; 
+	display: block; 
+	height: 7px; 
+	width: 102px; 
+	margin-left: -1px; 
+	margin-top: 74px; 
+	background: transparent url(../images/brockers-block-bottom.png) 50% 0 no-repeat; 
+}
+
+ul.brokers-ul li a .field-teaser{
+	width: 100%;
+	height: 80px;
+	text-align: center;
+}
+
+ul.brokers-ul li a .field-teaser .rebates_number{
+	color: #313447;
+	font-size: 30px;
+	line-height: 35px;
+}
+
+ul.brokers-ul li a .field-teaser .rebates-price{
+	font-size: 20px; 
+	color: #fff !important;
+	line-height: 20px;
+}
 /* ------------------------------------------------ */
 
 /* Medium devices (desktops, 992px and up) */
