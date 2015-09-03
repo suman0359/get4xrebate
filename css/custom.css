@@ -29,13 +29,13 @@ body{
 /* --------------------------------- */
 
 header > .container > .row > .col-md-4{
-	height: 80px;
+	height: 70px;
 	margin-top: 10px;
 	margin-bottom: 10px;
 }
 
 .logo .logo-img{
-	width: 200px; height: 80px;
+	width: 200px; height: 60px;
 }
 
 header .conatact-no{
@@ -44,7 +44,7 @@ header .conatact-no{
 }
 
 header .conatact-no p{
-	margin-top: 30px;
+	margin-top: 25px;
 }
 
 .login-register > ul > li{
@@ -64,6 +64,52 @@ header .conatact-no p{
 	color: #fff !important; 
 }
 
+/*
+* Login Modal 
+*/
+
+
+
+.login-title{
+    font-weight: bold;
+}
+
+.login-content label{
+    width: 100%;
+    padding-top: 8px;
+}
+
+.modal-content .modal-body{
+    padding: 30px;
+}
+
+.login-content .btn-super {
+    width: 100%;
+    padding: 15px 20px;
+    text-align: left;
+    font-size: 16px;
+    position: relative;
+    color: #fb8f33;
+    background-color: #ffffff;
+    border: 1px solid;
+    border-color: #f67405;
+}
+
+.forget-password{
+    padding: 8px;
+}
+
+.login-content .btn-super:hover {
+    color: #ffffff;
+    background-color: #f67405;
+    border-color: #ec6f05;
+}
+
+.modal-dialog.modal-register{
+    width: 800px;
+}
+
+/* End Login Modal*/
 
 /* Navigation Bar Style */
 .icon.icon-home{
