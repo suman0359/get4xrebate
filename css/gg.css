@@ -6,7 +6,7 @@ caption,th { text-align: left; }
 table { border-collapse: collapse; border-spacing: 0; }
 article,aside,footer,header,hgroup,nav,section,figure,figcaption,menu { display: block; padding: 0; margin: 0; }
 html { border: 0; color: #000; font: 14px/20px Arial, sans-serif; padding: 0; margin: 0; line-height: 1.4em; position: relative; min-height: 100%; }
-body { padding: 0; margin: 0; color: #000; background: #fff; line-height: 1.4em; margin-bottom: 320px; }
+body { padding: 0; margin: 0; color: #000; background: #fff; line-height: 1.4em;}
 img { border: 0; }
 p { font-size: 100%; line-height: 1.4em; margin: 5px 0 15px; }
 div { line-height: 1.4em; }
@@ -27,7 +27,7 @@ h3 { font-size: 20px; color: #f58220; margin: 20px 0px 20px 0px; }
 /* html, body { height: 100%; position: relative; } */
 #sitepage-wrapper { min-height: 100%; _height: 100%; }
 #sitepage {  }
-footer { display: block; height: 270px; margin: -270px 0 0; position: relative; }
+/*footer { display: block; height: 270px; margin: -270px 0 0; position: relative; }*/
 
 #content { margin: 30px 0px; font-size: 16px; color: #4a4a4a; line-height: 1.4em; }
 /*div.main_text { font-size: 16px; color: #4a4a4a; }*/

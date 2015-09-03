@@ -168,6 +168,24 @@ ul.brokers-ul li a .field-teaser .rebates-price{
 	color: #fff !important;
 	line-height: 20px;
 }
+
+i.nintero_logo { position: relative; top: 9px; background: url(../images/export_logo_white.png) no-repeat; width: 83px; height: 30px; display: inline-block; }
+/* ------------ Footer Stylesheet ------------------------- */
+
+footer{
+	background: #343434;
+}
+
+.terms-condition > ul{
+	list-style-type: none;
+}
+
+.terms-condition > ul > li{
+	float: left;
+	padding: 10px;
+}
+
+
 /* ------------------------------------------------ */
 
 /* Medium devices (desktops, 992px and up) */
