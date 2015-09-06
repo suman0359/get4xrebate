@@ -23,6 +23,8 @@ class Home extends CI_Controller {
         $data = array();
         $data['header'] = $this->load->view('common/header');
         $data['header'] = $this->load->view('common/navigation');
+        
+        $data['slider'] = $this->load->view('slider');
 
         $data['main-content'] = $this->load->view('main-content');
         $data['footer'] = $this->load->view('common/footer');
