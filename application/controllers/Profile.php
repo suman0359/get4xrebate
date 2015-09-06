@@ -2,7 +2,7 @@
 
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Home extends CI_Controller {
+class Profile extends CI_Controller {
 
     /**
      * Index Page for this controller.
@@ -21,10 +21,8 @@ class Home extends CI_Controller {
      */
     public function index() {
         $data = array();
-        $data['header'] = $this->load->view('common/header');
-        $data['header'] = $this->load->view('common/navigation');
-
-        $data['main-content'] = $this->load->view('main-content');
+        $data['header'] = $this->load->view('common/dashboard/dashboard_header');
+        $data['main-content'] = $this->load->view('common/dashboard/dashboard-profile');
         $data['footer'] = $this->load->view('common/footer');
         $this->load->view('home', $data);
     }

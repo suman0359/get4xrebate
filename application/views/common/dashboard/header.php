@@ -7,16 +7,18 @@
         <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
         <title>Bootstrap 101 Template</title>
         
-        <link rel="shortcut icon" href="<?php echo base_url(); ?>images/favicon.ico">
+        <link rel="shortcut icon" href="<?php echo base_url(); ?>images/favicon.ico" />
 
         <!-- Bootstrap -->
         <!-- <link href="css/bootstrap.min.css" rel="stylesheet"> -->
-        <link href="<?php echo base_url(); ?>css/bootstrap.css" rel="stylesheet">
+        <link href="<?php echo base_url(); ?>css/bootstrap.css" rel="stylesheet" />
 
-        <link href="<?php echo base_url(); ?>css/font-awesome.min.css" rel="stylesheet">
+        <link href="<?php echo base_url(); ?>css/font-awesome.min.css" rel="stylesheet" />
         <link href="<?php echo base_url(); ?>css/gg.css" rel="stylesheet">
 
-        <link rel="stylesheet" href="<?php echo base_url(); ?>css/custom.css">
+        <link rel="stylesheet" href="<?php echo base_url(); ?>css/custom.css" />
+        
+        <link href="<?php echo base_url(); ?>css/dashboard.css" rel="stylesheet" />
 
         <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -27,11 +29,11 @@
     </head>
     <body>
 
-       <header class="navbar navbar-default navbar-fixed-top">
-<div class="container">
+        <header class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
                 <div class="row">
 
-                    <div class="col-md-4 col-sm-4 col-xs-4">
+                    <div class="col-md-3 col-sm-3 col-xs-3">
                         <div class="logo">
                             <a href="<?php echo base_url(); ?>">
                                 <img src="<?php echo base_url(); ?>images/logo.png" alt="Forex Cash Book | Forex Rebate | GlobeGain Corp" class="logo-img">
@@ -39,28 +41,27 @@
                         </div>
                     </div>
 
-                    <div class="col-md-4 col-sm-4 col-xs-4">
+                    <div class="col-md-3 col-sm-3 col-xs-3">
                         <div class="conatact-no">
-                            <p class="text-center">+44 (0) 20 8133 6188</p>
+                            <p class="text-center">+44 (0) 20 8133 6188 </p>
                         </div>
                     </div>
 
-                    <div class="col-md-4 col-sm-4 col-xs-4">
+                    <div class="col-md-3 col-sm-3 col-xs-3">
                         <div class="login-register">
                             <ul class="nav navbar-nav pull-right">
-                                <li><a href="" class="btn btn-1" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#loginModal">Login</a></li>
-                                <li><a href="" class="btn btn-1" data-toggle="modal" data-target="#RegisterModal">Sign Up</a></li>
+                                <li><a href="<?php echo base_url()."myaccount"; ?>" class="btn btn-1" class="btn btn-primary">My Account</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-3 col-xs-3">
+                        <div class="login-register">
+                            <ul class="nav navbar-nav pull-right">
+                                <li><a href="<?php echo base_url()."myaccount/logout"; ?>" class="btn btn-1" class="btn btn-primary">Log Out</a></li>
                             </ul>
                         </div>
                     </div>
 
                 </div>
             </div>
-            
-            
-
-
-
-            
-
-        

@@ -47,7 +47,9 @@ h3 { font-size: 20px; color: #f58220; margin: 20px 0px 20px 0px; }
 .float-right { float: right; }
 .float-left { float: left; }
 
-input:not([type='radio']), textarea { width:283px; height: 38px; border: 1px solid #898989; padding: 0px 0px 0px 15px; margin: 0px 50px 25px 0px; }
+input:not([type='radio']), textarea { 
+/*    width:283px; */
+    height: 38px; border: 1px solid #898989; padding: 0px 0px 0px 15px; margin: 0px 50px 25px 0px; }
 textarea { padding: 10px 0px 0px 15px; font-family: Arial; }
 input[type="submit"] { padding: 0px; width: 300px; background-color: #f58220; border: 1px solid #f58220; color: white; font-size: 20px; cursor: pointer; }
 input:focus, select:focus, textarea:focus { border-color: #f58220; outline: none; }
@@ -121,7 +123,7 @@ div.breadcrumbs a { font-size: 14px; text-decoration: none; color: #434343; }
 div.breadcrumbs span#breadcrumbs_current { color: #f58220; }
 
 header { height: 100px; box-sizing: border-box; font-size: 18px; color: #8d8d8d; }
-header a:link, header a:visited { color: #3f3f3f; text-decoration: none; }
+/*header a:link, header a:visited { color: #3f3f3f; text-decoration: none; }*/
 header .cell { vertical-align: middle; text-align: center; }
 header .logo { width: auto; text-align: left; }
 header .logo img { width: 176px; vertical-align: middle; }

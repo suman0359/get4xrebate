@@ -13,21 +13,21 @@
         <div class="carousel-inner" role="listbox">
 
             <div class="item active">
-                <img src="images/slider/slider1.jpg" alt="...">
+                <img src="<?php echo base_url(); ?>images/slider/slider1.jpg" alt="...">
                 <div class="carousel-caption">
                     <p>This Is Slider Caption</p>
                 </div>
             </div>
 
             <div class="item">
-                <img src="images/slider/slider2.jpg" alt="...">
+                <img src="<?php echo base_url(); ?>images/slider/slider2.jpg" alt="...">
                 <div class="carousel-caption">
                     <p>This Is Slider Caption</p>
                 </div>
             </div>
 
             <div class="item">
-                <img src="images/slider/slider3.jpg" alt="...">
+                <img src="<?php echo base_url(); ?>images/slider/slider3.jpg" alt="...">
                 <div class="carousel-caption">
                     <p>This Is Slider Caption</p>
                 </div>
@@ -136,25 +136,25 @@
                         <div class="title">Payment Systems</div>
                         <div class="content">
                             <div class="row row-payment_system">
-                                <img src="images/bank-icon/bank_transfer.png" alt="Bank Transfer" title="Bank Transfer" class="imagecache imagecache_payment_system">
+                                <img src="<?php echo base_url(); ?>images/bank-icon/bank_transfer.png" alt="Bank Transfer" title="Bank Transfer" class="imagecache imagecache_payment_system">
                             </div>
                             <div class="row row-payment_system">
-                                <img src="images/bank-icon/skrill.png" alt="Skrill" title="Skrill" class="imagecache imagecache_payment_system">
+                                <img src="<?php echo base_url(); ?>images/bank-icon/skrill.png" alt="Skrill" title="Skrill" class="imagecache imagecache_payment_system">
                             </div>
                             <div class="row row-payment_system">
-                                <img src="images/bank-icon/paypal.png" alt="PayPal" title="PayPal" class="imagecache imagecache_payment_system">
+                                <img src="<?php echo base_url(); ?>images/bank-icon/paypal.png" alt="PayPal" title="PayPal" class="imagecache imagecache_payment_system">
                             </div>
                             <div class="row row-payment_system">
-                                <img src="images/bank-icon/neteller.png" alt="NETELLER" title="NETELLER" class="imagecache imagecache_payment_system">
+                                <img src="<?php echo base_url(); ?>images/bank-icon/neteller.png" alt="NETELLER" title="NETELLER" class="imagecache imagecache_payment_system">
                             </div>
                             <div class="row row-payment_system">
-                                <img src="images/bank-icon/fasapay.png" alt="FasaPay" title="FasaPay" class="imagecache imagecache_payment_system">
+                                <img src="<?php echo base_url(); ?>images/bank-icon/fasapay.png" alt="FasaPay" title="FasaPay" class="imagecache imagecache_payment_system">
                             </div>
                             <div class="row row-payment_system">
-                                <img src="images/bank-icon/webmoney_0.png" alt="WebMoney" title="WebMoney" class="imagecache imagecache_payment_system">
+                                <img src="<?php echo base_url(); ?>images/bank-icon/webmoney_0.png" alt="WebMoney" title="WebMoney" class="imagecache imagecache_payment_system">
                             </div>
                             <div class="row row-payment_system">
-                                <img src="images/bank-icon/local_bank.png" alt="Local Bank (Indonesia)" title="Local Bank (Indonesia)" class="imagecache imagecache_payment_system">
+                                <img src="<?php echo base_url(); ?>images/bank-icon/local_bank.png" alt="Local Bank (Indonesia)" title="Local Bank (Indonesia)" class="imagecache imagecache_payment_system">
                             </div>
                         </div>
                     </div>
@@ -172,7 +172,7 @@
                     <li>
                         <a href="">
                             <div class="field-logo">
-                                <img src="images/brokers/logo_fxpro_main.png">
+                                <img src="<?php echo base_url(); ?>images/brokers/logo_fxpro_main.png">
                             </div>
                             <div class="field-teaser">
                                 <span class="rebates_number">$4.4</span><br>
@@ -185,7 +185,7 @@
                     <li>
                         <a href="">
                             <div class="field-logo">
-                                <img src="images/brokers/logo_fxpro_main.png">
+                                <img src="<?php echo base_url(); ?>images/brokers/logo_fxpro_main.png">
                             </div>
                             <div class="field-teaser">
                                 <span class="rebates_number">$4.4</span><br>
@@ -198,7 +198,7 @@
                     <li>
                         <a href="">
                             <div class="field-logo">
-                                <img src="images/brokers/logo_fxpro_main.png">
+                                <img src="<?php echo base_url(); ?>images/brokers/logo_fxpro_main.png">
                             </div>
                             <div class="field-teaser">
                                 <span class="rebates_number">$4.4</span><br>
@@ -211,7 +211,7 @@
                     <li>
                         <a href="">
                             <div class="field-logo">
-                                <img src="images/brokers/logo_fxpro_main.png">
+                                <img src="<?php echo base_url(); ?>images/brokers/logo_fxpro_main.png">
                             </div>
                             <div class="field-teaser">
                                 <span class="rebates_number">$4.4</span><br>
@@ -224,7 +224,7 @@
                     <li>
                         <a href="">
                             <div class="field-logo">
-                                <img src="images/brokers/logo_fxpro_main.png">
+                                <img src="<?php echo base_url(); ?>images/brokers/logo_fxpro_main.png">
                             </div>
                             <div class="field-teaser">
                                 <span class="rebates_number">$4.4</span><br>
@@ -237,7 +237,7 @@
                     <li>
                         <a href="">
                             <div class="field-logo">
-                                <img src="images/brokers/logo_fxpro_main.png">
+                                <img src="<?php echo base_url(); ?>images/brokers/logo_fxpro_main.png">
                             </div>
                             <div class="field-teaser">
                                 <span class="rebates_number">$4.4</span><br>
@@ -250,7 +250,7 @@
                     <li>
                         <a href="">
                             <div class="field-logo">
-                                <img src="images/brokers/logo_fxpro_main.png">
+                                <img src="<?php echo base_url(); ?>images/brokers/logo_fxpro_main.png">
                             </div>
                             <div class="field-teaser">
                                 <span class="rebates_number">$4.4</span><br>
@@ -263,7 +263,7 @@
                     <li>
                         <a href="">
                             <div class="field-logo">
-                                <img src="images/brokers/logo_fxpro_main.png">
+                                <img src="<?php echo base_url(); ?>images/brokers/logo_fxpro_main.png">
                             </div>
                             <div class="field-teaser">
                                 <span class="rebates_number">$4.4</span><br>
@@ -276,7 +276,7 @@
                     <li>
                         <a href="">
                             <div class="field-logo">
-                                <img src="images/brokers/logo_fxpro_main.png">
+                                <img src="<?php echo base_url(); ?>images/brokers/logo_fxpro_main.png">
                             </div>
                             <div class="field-teaser">
                                 <span class="rebates_number">$4.4</span><br>
@@ -289,7 +289,7 @@
                     <li>
                         <a href="">
                             <div class="field-logo">
-                                <img src="images/brokers/logo_fxpro_main.png">
+                                <img src="<?php echo base_url(); ?>images/brokers/logo_fxpro_main.png">
                             </div>
                             <div class="field-teaser">
                                 <span class="rebates_number">$4.4</span><br>
@@ -302,7 +302,7 @@
                     <li>
                         <a href="">
                             <div class="field-logo">
-                                <img src="images/brokers/logo_fxpro_main.png">
+                                <img src="<?php echo base_url(); ?>images/brokers/logo_fxpro_main.png">
                             </div>
                             <div class="field-teaser">
                                 <span class="rebates_number">$4.4</span><br>
@@ -315,7 +315,7 @@
                     <li>
                         <a href="">
                             <div class="field-logo">
-                                <img src="images/brokers/logo_fxpro_main.png">
+                                <img src="<?php echo base_url(); ?>images/brokers/logo_fxpro_main.png">
                             </div>
                             <div class="field-teaser">
                                 <span class="rebates_number">$4.4</span><br>
@@ -328,7 +328,7 @@
                     <li>
                         <a href="">
                             <div class="field-logo">
-                                <img src="images/brokers/logo_fxpro_main.png">
+                                <img src="<?php echo base_url(); ?>images/brokers/logo_fxpro_main.png">
                             </div>
                             <div class="field-teaser">
                                 <span class="rebates_number">$4.4</span><br>
@@ -341,7 +341,7 @@
                     <li>
                         <a href="">
                             <div class="field-logo">
-                                <img src="images/brokers/logo_fxpro_main.png">
+                                <img src="<?php echo base_url(); ?>images/brokers/logo_fxpro_main.png">
                             </div>
                             <div class="field-teaser">
                                 <span class="rebates_number">$4.4</span><br>
@@ -354,7 +354,7 @@
                     <li>
                         <a href="">
                             <div class="field-logo">
-                                <img src="images/brokers/logo_fxpro_main.png">
+                                <img src="<?php echo base_url(); ?>images/brokers/logo_fxpro_main.png">
                             </div>
                             <div class="field-teaser">
                                 <span class="rebates_number">$4.4</span><br>
@@ -367,7 +367,7 @@
                     <li>
                         <a href="">
                             <div class="field-logo">
-                                <img src="images/brokers/logo_fxpro_main.png">
+                                <img src="<?php echo base_url(); ?>images/brokers/logo_fxpro_main.png">
                             </div>
                             <div class="field-teaser">
                                 <span class="rebates_number">$4.4</span><br>
@@ -390,7 +390,7 @@
             <hr class="solid">
             <div class="ceo_text">
                 <div class="image float-left">
-                    <img src="images/forex_trading.png">
+                    <img src="<?php echo base_url(); ?>images/forex_trading.png">
                 </div>
                 <h2>What is forex cashback?</h2>
                 <div class="main_text">
