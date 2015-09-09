@@ -48,8 +48,8 @@
                     <div class="col-md-4 col-sm-4 col-xs-4">
                         <div class="login-register">
                             <ul class="nav navbar-nav pull-right">
-                                <li><a href="<?php echo base_url()."user/login" ?>" class="btn btn-1" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#loginModal">Login</a></li>
-                                <li><a href="<?php echo base_url()."user/register" ?>" class="btn btn-1" data-toggle="modal" data-target="#RegisterModal">Sign Up</a></li>
+                                <li><a href="" class="btn btn-1" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#loginModal">Login</a></li>
+                                <li><a href="" class="btn btn-1" data-toggle="modal" data-target="#RegisterModal">Sign Up</a></li>
                             </ul>
                         </div>
                     </div>
