@@ -197,8 +197,8 @@
                                             <button type="submit" class="btn btn-super" name="login-button">Sign Up <span class="glyphicon glyphicon-arrow-right pull-right"></span></button>
 
                                             <div class="forget-password">
-                                                <a href="<?php echo base_url()."user/login" ?>" class="pull-left" >Sign In</a>
-                                                <a href="<?php echo base_url()."user/change_password" ?>" class="pull-right">Forget Password</a>
+                                                <a href="" class="pull-left" data-toggle="modal" data-target="#loginModal">Sign In</a>
+                                                <a href="" class="pull-right">Forget Password</a>
                                             </div>
 
                                         </div>

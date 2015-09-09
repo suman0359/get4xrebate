@@ -19,9 +19,20 @@ class Home extends CI_Controller {
      * map to /index.php/welcome/<method_name>
      * @see http://codeigniter.com/user_guide/general/urls.html
      */
+
+    public function __construct() {
+        parent::__construct();
+        $user_login_id = $this->session->userdata('user_id');
+        
+    }
     public function index() {
         $data = array();
-        $data['header'] = $this->load->view('common/header');
+        $user_login_id = $this->session->userdata('user_id');
+        if ($user_login_id !== NULL) {
+            $data['header'] = $this->load->view('common/dashboard/header');
+        }else{
+            $data['header'] = $this->load->view('common/header');
+        }
         $data['header'] = $this->load->view('common/navigation');
         
         $data['slider'] = $this->load->view('slider');

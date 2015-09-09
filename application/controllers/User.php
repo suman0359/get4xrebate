@@ -4,6 +4,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 class User extends CI_Controller {
 
+    
+
 	public function login() {
         $data = array();
         $data['header'] = $this->load->view('common/header');
@@ -89,7 +91,7 @@ class User extends CI_Controller {
         $login_msg = array();
         if ($result) {
             $login_msg['user_id'] = $result->user_id;
-            $login_msg['user_email_address'] = $result->user_email;
+            $login_msg['user_email'] = $result->user_email;
             $login_msg['user_first_name'] = $result->user_first_name;
             $login_msg['user_last_name'] = $result->user_last_name;
 
