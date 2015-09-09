@@ -84,9 +84,9 @@ textarea::-webkit-input-placeholder, textarea::-moz-placeholder, textarea:-moz-p
 .icon.icon-close { width: 12px; height: 12px; position: relative; top: 0px; background-position: -45px 2px; }
 .icon.icon-link-right { width: 12px; height: 14px; position: relative; top: 0px; background-position: -58px -17px; }
 .icon.icon_table_right_arrow { width: 56px; height: 34px; position: relative; top: 0px; background-position: 0px -187px; }
-.icon.icon-statis-block { width: 21px; height: 18px; position: relative; top: 0px; background-position: -74px 0px; }
-.icon.icon-broker-account-button-demo { width: 21px; height: 18px; position: absolute; top: 14px; left: 17px; background-position: -73px -55px; }
-.icon.icon-broker-account-button { width: 21px; height: 18px; position: absolute; top: 14px; left: 17px; background-position: -73px -55px; }
+.icon.icon-statis-block { width: 21px; height: 18px; float: right; position: relative; top: 0px; background-position: -74px 0px; }
+.icon.icon-broker-account-button-demo { width: 21px; height: 18px; position: absolute; top: 14px; right: 17px; background-position: -73px -55px; }
+.icon.icon-broker-account-button { width: 21px; height: 18px; position: absolute; top: 14px; right: 17px; background-position: -73px -55px; }
 
 .icon-dashdoard { width: 62px; height: 62px; display: inline-block; background: url(./images/icon-dashdoard.png) 0 0 no-repeat; }
 .icon-dashdoard.content { background-position: 0 -62px; }

@@ -146,6 +146,16 @@ header .conatact-no p{
 .calculator-wrapper #rebates_count { text-align: center; color: #f58220; font-size: 48px; line-height: 48px; font-family: HelveticaCE, Arial; }
 .calculator-wrapper #rebates_count.small { font-size: 35px; }
 
+.account_buttons > div{
+	margin-bottom: 20px;
+}
+
+.btn.btn_broker_account, .btn.btn_broker_account_demo{
+	text-align: left;
+	padding-left: 17px;
+}
+
+
 .brokers-list{
 	margin: 20px 0;
 }

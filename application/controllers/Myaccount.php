@@ -19,6 +19,18 @@ class MyAccount extends CI_Controller {
      * map to /index.php/welcome/<method_name>
      * @see http://codeigniter.com/user_guide/general/urls.html
      */
+    public function __construct() {
+        parent::__construct();
+        $user_login_id = $this->session->userdata('user_id');
+        if ($user_login_id == NULL) {
+            $alert_message = array();
+            $alert_message['message'] = "Please Login First";
+            $this->session->set_userdata($alert_message);
+
+            redirect('user');
+        }
+    }
+
     public function index() {
         $data = array();
         $data['header'] = $this->load->view('common/dashboard/header');
@@ -30,7 +42,8 @@ class MyAccount extends CI_Controller {
 
     public function profile() {
         $data = array();
-        $data['header'] = $this->load->view('common/dashboard/dashboard_header');
+        $data['header'] = $this->load->view('common/dashboard/header');
+        $data['header'] = $this->load->view('common/dashboard/navigation');
         $data['main-content'] = $this->load->view('common/dashboard/my-profile');
         $data['footer'] = $this->load->view('common/footer');
         $this->load->view('home', $data);
@@ -38,10 +51,22 @@ class MyAccount extends CI_Controller {
 
     public function edit_profile() {
         $data = array();
-        $data['header'] = $this->load->view('common/dashboard/dashboard_header');
+        $data['header'] = $this->load->view('common/dashboard/header');
+        $data['header'] = $this->load->view('common/dashboard/navigation');
         $data['main-content'] = $this->load->view('common/dashboard/edit_my_profile');
         $data['footer'] = $this->load->view('common/footer');
         $this->load->view('home', $data);
+    }
+
+    public function logout() {
+        $this->session->unset_userdata('user_id');
+        $this->session->unset_userdata('user_email_address');
+        $this->session->unset_userdata('user_first_name');
+        $this->session->unset_userdata('user_last_name');
+        $logout_msg = array();
+        $logout_msg['message'] = "You are Successfully Loged out";
+        $this->session->set_userdata($logout_msg);
+        redirect('home', 'refresh');
     }
 
 }

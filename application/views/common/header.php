@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-        <title>Bootstrap 101 Template</title>
+        <title>Get 4x Rebate</title>
         
         <link rel="shortcut icon" href="<?php echo base_url(); ?>images/favicon.ico">
 
@@ -48,8 +48,8 @@
                     <div class="col-md-4 col-sm-4 col-xs-4">
                         <div class="login-register">
                             <ul class="nav navbar-nav pull-right">
-                                <li><a href="" class="btn btn-1" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#loginModal">Login</a></li>
-                                <li><a href="" class="btn btn-1" data-toggle="modal" data-target="#RegisterModal">Sign Up</a></li>
+                                <li><a href="<?php echo base_url()."user/login" ?>" class="btn btn-1" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#loginModal">Login</a></li>
+                                <li><a href="<?php echo base_url()."user/register" ?>" class="btn btn-1" data-toggle="modal" data-target="#RegisterModal">Sign Up</a></li>
                             </ul>
                         </div>
                     </div>

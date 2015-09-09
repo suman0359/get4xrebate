@@ -1,3 +1,5 @@
+<?php $user_email = $this->session->userdata('user_email'); ?>
+
 <section id="dashboard">
     <div class="container">
         <div class="row">
@@ -8,11 +10,11 @@
                     </div>
                     <div class="box-details">
                         <h1>Profile</h1>
-                        <h3>tasfir_suman@yahoo.com</h3>
+                        <h3><?php echo $user_email; ?></h3>
                     </div>
                     
                     <div class="action">
-                        <a href="<?php ?>" class="btn btn-primary">Edit</a>
+                        <a href="<?php echo base_url()."myaccount/edit_profile"; ?>" class="btn btn-primary">Edit</a>
                     </div>
                 </div>
             </div>

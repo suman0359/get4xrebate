@@ -21,9 +21,8 @@ class Profile extends CI_Controller {
      */
     public function index() {
         $data = array();
-        $data['header'] = $this->load->view('common/dashboard/header');
-        $data['header'] = $this->load->view('common/dashboard/navigation');
-        $data['main-content'] = $this->load->view('common/dashboard/my-profile');
+        $data['header'] = $this->load->view('common/dashboard/dashboard_header');
+        $data['main-content'] = $this->load->view('common/dashboard/dashboard-profile');
         $data['footer'] = $this->load->view('common/footer');
         $this->load->view('home', $data);
     }

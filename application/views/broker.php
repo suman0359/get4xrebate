@@ -21,17 +21,18 @@
             <div class="col-md-3">
 
                 <div class="calculator-wrapper">
-                <div class="title">Open Broker Account</div>
+                <h3 class="title">Open Broker Account</h3>
                 <div class="account_buttons">
 					<div><a class="btn btn_broker_account" target="_blank" href="https://direct.fxpro.com/ib/en/usd/162122" onclick="yaCounter23429074.reachGoal('fxpro_real'); return true;">
-					<i class="icon icon-broker-account-button"></i>Real account</a></div>
+					<i class="icon icon-statis-block"></i>Real account</a></div>
 					<div><a class="btn btn_broker_account" target="_blank" href="https://direct.fxpro.co.uk/ib/en/usd/1056037" onclick="yaCounter23429074.reachGoal('fxpro_real'); return true;">
-					<i class="icon icon-broker-account-button"></i>Real FxPro UK account</a></div>
+					<i class="icon icon-statis-block"></i>Real FxPro UK account</a></div>
 
 
 				</div>
 				<div class="account_demo_button">
-					<a class="btn btn_broker_account_demo" target="_blank" href="https://direct.fxpro.com/ib/en/usd/162122/demo" onclick="yaCounter23429074.reachGoal('fxpro_demo'); return true;"><i class="icon icon-broker-account-button-demo"></i>Demo account</a>
+					<a class="btn btn_broker_account_demo" target="_blank" href="https://direct.fxpro.com/ib/en/usd/162122/demo" onclick="yaCounter23429074.reachGoal('fxpro_demo'); return true;">
+					<i class="icon icon-statis-block"></i>Demo account</a>
 				</div>
                     <div class="calculator-name">
                         <span>Calculate Cashback</span>

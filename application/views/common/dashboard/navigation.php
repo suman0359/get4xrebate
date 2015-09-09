@@ -37,3 +37,18 @@
 
 
         <div style="width: 100%; height: 155px;"></div>
+
+        <?php
+        $alert_message = $this->session->userdata('message');
+        if ($alert_message !== NULL) {
+            ?>
+
+            <div class="container alert alert-success alert-dismissible" role="alert">
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                    <span aria-hidden="true">&times;</span></button>
+                <strong><?php
+                    echo $alert_message;
+                    $this->session->unset_userdata('message');
+                    ?>
+            </div>
+        <?php } ?>

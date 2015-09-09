@@ -18,7 +18,7 @@
             <div class="col-md-3">
                 <div class="dev-info">
                     <a href="#">
-                        <span>Developed by</span><i class="nintero_logo"></i>
+                        <span>Developed by <strong>Tasfir Hossain Suman</strong></span><!-- <i class="nintero_logo"></i> -->
                     </a>
                 </div>
             </div>
