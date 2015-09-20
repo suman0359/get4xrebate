@@ -1,134 +1,36 @@
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/* 
-    Created on : Sep 4, 2015, 12:30:57 AM
-    Author     : tasfir
-*/
-
-.d-icon {
-  background: url(/myglobe/img/sprite.png) 0 0 no-repeat;
-  display: inline-block;
-}
-.d-icon {
-  background: url(http://localhost/globegain/images/icon-dashboard.png) 0 0 no-repeat;
-  display: inline-block;
-}
-.d-icon.icon-profile {
-  background-position: -64px -5px;
-  width: 62px;
-  height: 55px;
-}
-.d-icon.icon-broker.accounts {
-  background-position: -136px -72px;
-  width: 46px;
-  height: 47px;
-}
-.d-icon.icon-withdrawals {
-  background-position: -136px -4px;
-  width: 46px;
-  height: 56px;
-}
-.d-icon.icon-referrals {
-  background-position: 1px -8px;
-  width: 66px;
-  height: 47px;
-}
-.d-icon.icon-history {
-  background-position: -71px -72px;
-  width: 49px;
-  height: 47px;
-}
-.d-icon.icon-manage.brokers.accounts {
-  background-position: -6px -69px;
-  width: 51px;
-  height: 52px;
-}
-.d-icon.icon-settings {
-  background-position: -6px -69px;
-  width: 51px;
-  height: 52px;
-}
-.d-icon.icon-rights {
-  background-position: -6px -69px;
-  width: 51px;
-  height: 52px;
-}
-.d-icon.icon-manage.withdrawals {
-  background-position: -71px -72px;
-  width: 49px;
-  height: 47px;
-}
-.d-icon.icon-brokers.settings {
-  background-position: -6px -69px;
-  width: 51px;
-  height: 52px;
-}
-.d-icon.icon-users {
-  background-position: 1px -8px;
-  width: 66px;
-  height: 47px;
-}
-.d-icon.icon-manage.transactions {
-  background-position: -71px -72px;
-  width: 49px;
-  height: 47px;
-}
-.d-icon.icon-representatives {
-  background-position: 1px -8px;
-  width: 66px;
-  height: 47px;
-}
-.d-icon.icon-balance {
-  background-position: -136px -4px;
-  width: 46px;
-  height: 56px;
-}
 
 
-/* Dashboard Style */
 
-#dashboard .col-md-4{
-    margin-bottom: 20px;
-}
+ /*
+ * Dashboard Profile Table
+ */
 
-.dashboard-box{
-    height: 180px;
-    padding: 10px;
-    border: 1px solid #E67E22;
-}
+ #profile .container table tbody tr th,  #profile .container table tbody tr td{
+    padding: 20px 10px;
+ }
 
-.dashboard-icon{
-    width: 20%;
-    height: 140px; 
-    float: left; 
-    display: block;
-}
-
-.box-details{
-    width: 80%; float: left;
-    padding: 10px 0
-}
-
-/*#profile table tbody tr th, #profile table tbody tr td{
-    padding: 20px 5px
-}*/
-
-.table-gg > tbody > tr > th, .table-gg > tbody > tr > td {
-    padding: 20px;
-    border: 0;
-}
-
-.edit-profile .col-md-4 input{
+ .edit-my-profile .container table .form-control{
     margin-bottom: 0;
-}
+ }
 
-.table-gg > tbody > tr > th > label{
-    padding-top: 10px;
-}
+  .edit-my-profile .container table tr th label{
+    margin-top: 10px;
+  }
 
-.table-gg > tbody > tr > td > input{
-    margin: 0;
-}
+  .user-profile-info h2{
+    font-size: 28px;
+    font-weight: bold;
+  }
+
+ .edit-profile-button, .update-submit-button{
+    margin-bottom: 25px;
+ }
+
+ /*
+ *  Broker Page StyleSheet 
+ */
+
+ .container.extra-button{
+  padding-bottom: 20px;
+ }
+

@@ -12,9 +12,9 @@
                     <div class="form-group">
                         <label>Choose your broker</label>
                         <div class="select-box">
-                            <select name="broker-name" id="" class="form-control">
+                            <select name="broker-name" id="brokerRate" onchange="cureency_calculator(this.value)" class="form-control">
                                 <option value="">Choose Brokar Name</option>
-                                <option value="214">FxPro</option>
+                                <option value="214" selected="selected">FxPro</option>
                                 <option value="215">IronFX</option>
                                 <option value="216">Admiral Markets</option>
                                 <option value="217">ACFX</option>
@@ -50,9 +50,9 @@
                     <div class="form-group">
                         <label>Choose your broker</label>
                         <div class="select-box">
-                            <select name="currency-name" id="" class="form-control">
+                            <select name="currency-name" id="CurrencyRate" onchange="cureency_calculator(this.value)" class="form-control">
                                 <option value="">Choose your Currency</option>
-                                <option value="11" data-key="eurusd">EUR/USD</option>
+                                <option value="11" selected="selected" data-key="eurusd">EUR/USD</option>
                                 <option value="12" data-key="gbpusd">GBP/USD</option>
                                 <option value="13" data-key="usdjpy">USD/JPY</option>
                                 <option value="14" data-key="usdchf">USD/CHF</option>
@@ -65,7 +65,7 @@
                         <label for="">Monthly trade volume (lots)</label>
                     </div>
                     <div class="trade-volume">
-                        <input type="number" class="form-control" value="5">
+                        <input type="number" id="volume" onchange="cureency_calculator(this.value)" class="form-control" value="5">
                     </div>
 
                 </div>

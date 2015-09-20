@@ -29,7 +29,7 @@
                     </div>
                     
                     <div class="action">
-                    	<a href="<?php ?>" class="btn btn-primary">Add Broker Account</a>
+                    	<a href="<?php echo base_url()."brokers/add_broker_account"; ?>" class="btn btn-primary">Add Broker Account</a>
                     </div>
                 </div>
             </div>

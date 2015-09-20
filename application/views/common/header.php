@@ -27,11 +27,11 @@
     </head>
     <body>
 
-       <header class="navbar navbar-default navbar-fixed-top">
+       <header class="header navbar navbar-default navbar-fixed-top">
 <div class="container">
                 <div class="row">
 
-                    <div class="col-md-4 col-sm-4 col-xs-4">
+                    <div class="col-md-4 col-sm-4 col-xs-12">
                         <div class="logo">
                             <a href="<?php echo base_url(); ?>">
                                 <img src="<?php echo base_url(); ?>images/logo.png" alt="Forex Cash Book | Forex Rebate | GlobeGain Corp" class="logo-img">
@@ -39,13 +39,13 @@
                         </div>
                     </div>
 
-                    <div class="col-md-4 col-sm-4 col-xs-4">
+                    <div class="col-md-4 col-sm-4 col-xs-6">
                         <div class="conatact-no">
                             <p class="text-center">+44 (0) 20 8133 6188</p>
                         </div>
                     </div>
 
-                    <div class="col-md-4 col-sm-4 col-xs-4">
+                    <div class="col-md-4 col-sm-4 col-xs-6">
                         <div class="login-register">
                             <ul class="nav navbar-nav pull-right">
                                 <li><a href="" class="btn btn-1" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#loginModal">Login</a></li>

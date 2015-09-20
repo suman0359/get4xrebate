@@ -3,6 +3,22 @@
 <!-- Login Modal -->
 <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="myLoginLabel">
     <div class="modal-dialog" role="document">
+
+ <?php
+        $alert_message = $this->session->userdata('message');
+        if ($alert_message !== NULL) {
+            ?>
+
+            <div class="alert alert-success alert-dismissible" role="alert">
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                    <span aria-hidden="true">&times;</span></button>
+                <strong><?php
+                    echo $alert_message;
+                    $this->session->unset_userdata('message');
+                    ?>
+            </div>
+        <?php } ?>
+
         <div class="modal-content">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">

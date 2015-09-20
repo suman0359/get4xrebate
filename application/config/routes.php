@@ -54,6 +54,10 @@ $route['default_controller'] = 'home';
 $route['user/index'] = 'user/login';
 $route['user'] = 'user/login';
 
+$route['admin_login'] = 'admin_login/login';
+$route['admin_login/index'] = 'admin_login/login';
+$route['admin_login/login'] = 'admin_login/login';
+
 //$route['user-login/index'] = 'user_login/index';
 //$route['user-login'] = 'user_login/index';
 //

@@ -47,7 +47,7 @@ h3 { font-size: 20px; color: #f58220; margin: 20px 0px 20px 0px; }
 .float-right { float: right; }
 .float-left { float: left; }
 
-input:not([type='radio']), textarea { 
+input:not([type='radio']), textarea, select { 
 /*    width:283px; */
     height: 38px; border: 1px solid #898989; padding: 0px 0px 0px 15px; margin: 0px 50px 25px 0px; }
 textarea { padding: 10px 0px 0px 15px; font-family: Arial; }

@@ -18,11 +18,11 @@
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav">
-                            <li><a href="<?php echo base_url(); ?>"> Profile </a></li>
-                            <li><a href="<?php echo base_url(); ?>">Broker Account</a></li>
-                            <li><a href="<?php echo base_url(); ?>">History</a></li>
-                            <li><a href="<?php echo base_url(); ?>">Withdrawal</a></li>
-                            <li><a href="<?php echo base_url(); ?>">Referrals</a></li>                    
+                            <li><a href="<?php echo base_url()."myaccount/profile"; ?>"> Profile </a></li>
+                            <li><a href="<?php echo base_url()."brokers"; ?>">Broker Account</a></li>
+                            <li><a href="<?php echo base_url()."history"; ?>">History</a></li>
+                            <li><a href="<?php echo base_url()."withdrawal"; ?>">Withdrawal</a></li>
+                            <li><a href="<?php echo base_url()."referrals"; ?>">Referrals</a></li>                    
                         </ul>
 
                        

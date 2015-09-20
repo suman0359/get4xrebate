@@ -27,9 +27,8 @@
 					<i class="icon icon-statis-block"></i>Real account</a></div>
 					<div><a class="btn btn_broker_account" target="_blank" href="https://direct.fxpro.co.uk/ib/en/usd/1056037" onclick="yaCounter23429074.reachGoal('fxpro_real'); return true;">
 					<i class="icon icon-statis-block"></i>Real FxPro UK account</a></div>
-
-
 				</div>
+                
 				<div class="account_demo_button">
 					<a class="btn btn_broker_account_demo" target="_blank" href="https://direct.fxpro.com/ib/en/usd/162122/demo" onclick="yaCounter23429074.reachGoal('fxpro_demo'); return true;">
 					<i class="icon icon-statis-block"></i>Demo account</a>
@@ -142,8 +141,50 @@
 
             </div> <!-- /Col-Md-3 -->
             <div class="col-md-9">
-            	
-            </div> <!-- /Col-Md-9 -->
-        </div>
+            	<div class="broker_short_title">
+                 <div class="row">
+                     <div class="col-md-2">
+                         <div class="brokers_logo">
+                             <img src="<?php echo base_url(); ?>images/brokers/logo_ironfx_main.png" alt="">
+                         </div>
+                     </div>
+                     <div class="col-md-6">
+                         <div class="table-cell">
+                             Open an account through this page and get Rebates on each traded lot: 
+                         </div>
+                     </div>
+                     <div class="col-md-4 pull-right">
+                         <div class="right-block-cell">
+                             <div class="single-cell">
+                                <span class="number">$4.4*</span>
+                                <br>
+                                <span class="text">per lot</span>
+                             </div>
+                             <div class="single-cell pull-right">
+                                 <a href="#specification" id="scroll_all_rates">See all rates</a>
+                             </div>
+                         </div>
+                     </div>
+                 </div>   
+                </div>
+
+
+                <div class="average_value">* The average value for major instruments.</div>
+
+
+                <div class="block_image_description">
+                    <div class="image_info" style="background: url(<?php echo base_url(); ?>images/brokers/pages_image/fxpro_photo.jpg) no-repeat; background-size: cover;">
+                        <div class="info">
+                            <div class="block_text">
+                                <div class="title">FxPro Review</div>
+                                <div class="foundation">Founded in 2006</div>
+                                <div class="licenses">Licenses: <span>CySEC</span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text">
+                        <p>FxPro Group Limited is a global FX brokerage company, registered and regulated in UK (FxPro UK Limited) and Cyprus (FxPro Financial Services Limited).</p><p>FxPro’s prime focus lies on providing its internationally diversified client base with superior access to Forex trading. The company’s other chief products and services extend to trading on major indices, commodities, metals and individual equities.</p><p>At present FxPro’s client base largely consists of retail traders, yet the number of the company’s institutional clients also increases day by day. Due to an expanding network of representative offices currently FxPro is able to serve traders from over 150 countries worldwide.</p><p>FxPro is a rapidly developing industry leader with an agency model on all its platforms, MT4 included. This means that clients have all their orders delivered right to the best bid/ask price on offer in the pool of the company’s 10+ liquidity providers. This is how FxPro’s provides its clients with a real opportunity to grow into profitable traders and a huge incentive to stay in the business for long.</p><p>FxPro is a primary choice for clients looking for the user-friendly market access through a bespoke exceptional trading infrastructure.</p><p>Globe Gain is an affiliate of FxPro Financial Services Ltd, a sister company of FxPro Group Limited.</p>
+                        
+                    </div>
     </div>
 </section>
